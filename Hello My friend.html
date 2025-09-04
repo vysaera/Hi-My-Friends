@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HALLO MY FRIENDS!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body
+    style="background-image: url('https://images.unsplash.com/photo-1633810274315-be2e27a63d62?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-size: cover;"
+    class="flex items-center justify-center h-screen"
+>
+    <div class="bg-Black bg-opacity-60 px-10 py-8 border-4 border-black -100 shadow-yellow-200 shadow-lg rounded-xl text-center animate__animated animate__fadeInDown m-20 w-90" 
+    id="kartu">
+
+        <h1 class="text-4xl font-bold text-yellow-600 mb-4 animate__animated animate__heartBeat animate__infinite">HI! How Are You Today </h1>
+
+        <p class="text-lg text-white -700 mb-6 ">Semoga hari hari mu penuh kebahagiaan, cinta, dan harapan baru. Sukses selalu untukmu! Dan Jangan Lupa Bahagia</p>
+        
+        <button class= "bg-yellow-500 text-white px-6 py-2 rounded-full shadow hover:bg-black-900 transition ease-in animate__animated animate__delay-1s animate__tada" onclick="ubahKartu()"
+        
+        
+        >Click Here Bestie</button>
+
+        <div>
+            
+            <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+            <script>confetti({particleCount: 100,spread: 70,origin: { y: 0.6 },});
+            let kartu = document.getElementById("kartu");
+
+            function ubahKartu() {
+                kartu.innerHTML = `<h1 class="font-semibold text-white text-wrap animate__animatedanimate__zoomIn animate__animated animate__heartBeat m-20 w-90 ">Hallo Teman-Temanku Namaku Nabyla Intan Vidia Putri
+                Terimakasih telah menjadi temanku selama berada di OH!SOME MOG. Aku berharap pertemanan kita tidak sampai disini saya ja guyss..LOVE AND WISH YOU ALL THE BEST 
+        </h1> 
+        <button class= "bg-yellow-500 text-white mt-5 px-6 py-2 rounded-full shadow hover:bg-black-900 transition ease-in hover:bg-yellow-600 animate__animated animate__delay-1s animate__tada" onclick="refresh()"
+        
+        
+        >Thank You Bestie</button>`;}
+        
+    function refresh() {
+    location.reload();}
+
+
+            </script>
+
+
+
+
